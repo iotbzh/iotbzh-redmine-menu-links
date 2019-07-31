@@ -6,6 +6,6 @@ Redmine::Plugin.register :iotbzh_menu_links do
   url 'http://iot.bzh'
   author_url 'https://iot.bzh/en/team/portfolio/douheret-sebastien'
 
-  menu :top_menu, :wiki, { :controller => 'wiki', :action =>  'show', :id => 'Wiki', :project_id => 'iot-bzh'  }, :caption => 'WIKI'
+  menu :top_menu, :wiki, { :controller => 'wiki', :action =>  'show', :id => 'Wiki', :project_id => 'iot-team'  }, :caption => 'WIKI'
 
 end
